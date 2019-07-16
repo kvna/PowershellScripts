@@ -26,3 +26,15 @@ Example:
 get-Service|test-psobject
 ```
 
+Example:
+```PowerShell
+$a =get-childitem C:\ |test-psobject
+$a.Core.Name
+
+Lists all Files and Folder Names
+
+$a.Date.Day
+
+Gets the Day of the month 
+```
+
