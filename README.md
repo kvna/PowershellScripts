@@ -31,10 +31,10 @@ Example:
 $a =get-childitem C:\ |test-psobject
 $a.Core.Name
 
-Lists all Files and Folder Names
+#Lists all Files and Folder Names
 
 $a.Date.Day
 
-Gets the Day of the month 
+#Gets the Day of the month 
 ```
 
