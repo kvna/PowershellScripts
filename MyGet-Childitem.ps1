@@ -1,3 +1,7 @@
 \\Get-ChildItem
 
-get-childitem C:\
+$list = get-childitem C:\
+
+$list.name
+
+
